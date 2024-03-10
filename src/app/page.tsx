@@ -137,7 +137,11 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2">{education.degree}</CardContent>
                 <CardContent className="mt-2">論文題目：{education.dissertation}</CardContent>
-                <CardContent className="mt-2">期刊發表：<div className="text-xs">{RESUME_DATA.publication}</div></CardContent>
+                <CardContent className="mt-2">期刊發表：
+                  <a href={RESUME_DATA.publication[0].link} target="_blank" rel="noopener noreferrer">
+                    <div className="text-xs">{RESUME_DATA.publication[0].title}</div>
+                  </a>
+                </CardContent>
 
                 <CardContent className="mt-auto flex">
                   <div className="mt-2 flex flex-wrap gap-1">
