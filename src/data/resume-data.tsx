@@ -44,11 +44,16 @@ export const RESUME_DATA = {
       tags:["Python/Flask","Natural Language Processing","BERT"],
     },
   ],
-  publication:"Lin, Kuan-Cheng, Nien-Tzu Li, and Mu-Yen Chen. \"Sustainable education on improving the quality of peer assessment: design and implementation of an online deep learning-based peer assessment system.\" Library Hi Tech (2024).",
+  publication: [
+    {
+      title: "Lin, Kuan-Cheng, Nien-Tzu Li, and Mu-Yen Chen. \"Sustainable education on improving the quality of peer assessment: design and implementation of an online deep learning-based peer assessment system.\" Library Hi Tech (2024).",
+      link: "https://www.emerald.com/insight/content/doi/10.1108/LHT-11-2023-0569/full/html"
+    }
+  ],
   works: [
     {
-      company: "國泰世華商業銀行-數位數據暨科技發展中心",
-      link: "https://cathaybk.com.tw/cathaybk/",
+      company: "國泰世華商業銀行-數位雲中台部門",
+      link: undefined,
       badges: [],
       title: "Junior Full-Stack Engineer",
       logo: "",
@@ -56,7 +61,7 @@ export const RESUME_DATA = {
       end: "目前",
       description:[
         {title:"前端開發:",content:"使用Angular及TypeScript成功開發部門批次管理系統，優化VM批次設定流程，提升作業效率80%，加速部門內批次之執行效率。"},
-        {title:"後端開發:",content:"用Java SpringBoot和.Net開發高效能、安全的RESTful API，支持前端功能和第三方服務的無縫整合，進一步加快數據處理速度。"}],
+        {title:"後端開發:",content:"開發多個RESTful API（Java SpringBoot/.Net），支持前台通路雨後台電文的整合服務。"}],
     },
   ],
   skills: [
