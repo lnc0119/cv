@@ -1,278 +1,150 @@
-import {
-  AmbitLogo,
-  BarepapersLogo,
-  BimLogo,
-  CDGOLogo,
-  ClevertechLogo,
-  ConsultlyLogo,
-  EvercastLogo,
-  Howdy,
-  JarockiMeLogo,
-  JojoMobileLogo,
-  Minimal,
-  MobileVikingsLogo,
-  MonitoLogo,
-  NSNLogo,
-  ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
-} from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { ChloeAvatar } from "@/images/avatars";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "李念慈 Chloe Lee",
+  initials: "Chloe",
+  location: "台北市, 台灣",
+  locationLink: "https://www.google.com/maps/place/Taipei,+Taiwan",
   about:
-    "Full Stack Engineer focused on building products with extra attention to detail",
+    "",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/117889394?s=400&u=09b67cb189b76f0d401145b7f11a9cb4cecc6e2a&v=4",
+  avatarImage: ChloeAvatar,
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "lnc3596@gmail.com",
+    tel: "0983665402",
     social: [
-      {
-        name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
-        icon: GitHubIcon,
-      },
-      {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
-      },
+      // {
+      //   name: "GitHub",
+      //   url: "https://github.com/lnc0119",
+      //   icon: GitHubIcon,
+      // },
+      // {
+      //   name: "LinkedIn",
+      //   url: "https://www.linkedin.com/in/bjarocki/",
+      //   icon: LinkedInIcon,
+      // },
+      // {
+      //   name: "X",
+      //   url: "https://x.com/BartoszJarocki",
+      //   icon: XIcon,
+      // },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "國立中興大學",
+      degree: "資訊管理學系碩士",
+      dissertation: "同儕互評品質提升之研究: 一個基於深度學習自然語言處理與自回饋機制之線上系統設計與實作",
+      start: "2020/09",
+      end: "2022/07",
+      tags:["Python/Flask","Natural Language Processing","BERT"],
     },
   ],
-  work: [
+  publication:"Lin, Kuan-Cheng, Nien-Tzu Li, and Mu-Yen Chen. \"Sustainable education on improving the quality of peer assessment: design and implementation of an online deep learning-based peer assessment system.\" Library Hi Tech (2024).",
+  works: [
     {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led squad, worked on improving the way developers ship the code, started migration from Emotion to Tailwind CSS and more. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
-      logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
-      description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, or AAA. Built live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
-    },
-    {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
+      company: "國泰世華商業銀行-數位數據暨科技發展中心",
+      link: "https://cathaybk.com.tw/cathaybk/",
       badges: [],
-      title: "Android Developer → Lead Android Developer",
-      logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Built an Android team, created Android apps for biggest Polish companies like LOT, Polskie Radio, Agora, PolskaPress",
-    },
-    {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
-      logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Creating and testing software for LTE base stations",
+      title: "Junior Full-Stack Engineer",
+      logo: "",
+      start: "2022/09",
+      end: "目前",
+      description:[
+        {title:"前端開發:",content:"使用Angular及TypeScript成功開發部門批次管理系統，優化VM批次設定流程，提升作業效率80%，加速部門內批次之執行效率。"},
+        {title:"後端開發:",content:"用Java SpringBoot和.Net開發高效能、安全的RESTful API，支持前端功能和第三方服務的無縫整合，進一步加快數據處理速度。"}],
     },
   ],
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    "TypeScript/Angular",
+    "C#/.Net",
+    "Java/Spring",
+    "Python/Flask",
+    "UI/UX Design (Sketch/Axure)",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "台灣自來水-資訊管理系統",
+      content:"",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "企業合作案",
+        "C#/ASP.NET",
+        "Vue",
+        "MSSQL",
       ],
-      description: "A platform to build and grow your online business",
-      logo: ConsultlyLogo,
+      description: [
+        "將原有的JSP後端邏輯和功能成功遷移至ASP.NET框架，確保邏輯一致，降低作業人員操作邏輯困難",
+      ],
+      start: "2023/09",
+      end:  "2024/02",
+      logo: null,
       link: {
-        label: "consultly.com",
-        href: "https://consultly.com/",
+        label: "",
+        href: undefined,
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "愛爾麗-資訊管理系統",
+      content:"",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "企業合作案",
+        "SpringBoot JPA",
+        "Oracle",
+      ],
+      description: [
+        "擔任團隊PM，協調工作進程並整合進度報告",
+        "使用SpringBoot JPA開發內部資訊系統，協助工作人員新增修改查詢顧客之相關服務"
+      ],
+      start: "2022/09",
+      end:  "2023/09",
+      logo: null,
+      link: {
+        label: "",
+        href: undefined,
+      },
+    },
+    {
+      title: "警政署-毒品檢測儀器",
+      content:"",
+      techStack: [
+        "產學合作案",
+        "UI/UX Design (Sketch)"
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+        [
+          "擔任團隊PM，進行專案管理及系統分析",
+          "串接硬體(光譜機)以及判斷儀器所檢測之資訊顯示於嵌入式系統",
+          "UI/UX Design (Sketch)"
+        ],
+      start: "2019/04",
+      end:  "2019/07",
+      logo: null,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "",
+        href: undefined,
       },
     },
     {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
+      title: "國健署-不抽菸的貓",
+      content:"與國健署合作開發戒菸輔助工具，以輕鬆的養成介面提升青少年使用之意願。",
+      techStack: ["產學合作案", "Swift", "UI/UX Design (Sketch)"],
+      description:[
+        "擔任團隊PM，協調工作進程並整合進度報告",
+        "擔任雙系統UI設計以及UX規劃",
+        "協助開發iOS系統"
+      ],
+      start: "2018/06",
+      end:  "2019/06",
+      logo: null,
+      link: {
+        label: "",
+        href: undefined,
+      },
+    },
 
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
-    },
   ],
 } as const;
