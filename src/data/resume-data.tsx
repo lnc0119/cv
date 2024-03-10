@@ -61,7 +61,7 @@ export const RESUME_DATA = {
       end: "目前",
       description:[
         {title:"前端開發:",content:"使用Angular及TypeScript成功開發部門批次管理系統，優化VM批次設定流程，提升作業效率80%，加速部門內批次之執行效率。"},
-        {title:"後端開發:",content:"開發多個RESTful API（Java SpringBoot/.Net），支持前台通路雨後台電文的整合服務。"}],
+        {title:"後端開發:",content:"開發多個RESTful API（Java SpringBoot/.Net），支持前台通路經由Gateway及API KEY與後台電文的整合服務。"}],
     },
   ],
   skills: [
